@@ -33,9 +33,21 @@
 		)
 		(uuid "2b04f695-18f4-4139-b6d0-a971b6a882d3")
 	)
+	(text "System Diagram (Block Diagram)"
+		(exclude_from_sim no)
+		(at 188.468 38.354 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "61efb20e-ae00-4eb3-9f5a-e8432bd29fc9")
+	)
 	(text_box "USB Input"
 		(exclude_from_sim no)
-		(at 171.45 36.83 0)
+		(at 172.72 54.61 0)
 		(size 31.75 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -57,7 +69,7 @@
 	)
 	(text_box "Battery Charging Circuit"
 		(exclude_from_sim no)
-		(at 222.25 36.83 0)
+		(at 223.52 54.61 0)
 		(size 31.75 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -179,7 +191,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 50.8) (xy 222.25 50.8)
+			(xy 204.47 68.58) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0.5)
@@ -189,7 +201,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 49.53) (xy 222.25 50.8)
+			(xy 222.25 67.31) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0)
@@ -199,7 +211,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 52.07) (xy 222.25 50.8)
+			(xy 222.25 69.85) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0.5)
@@ -209,7 +221,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 49.53) (xy 222.25 50.8)
+			(xy 222.25 67.31) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0.5)
@@ -219,7 +231,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 49.53) (xy 222.25 50.8)
+			(xy 222.25 67.31) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0)
