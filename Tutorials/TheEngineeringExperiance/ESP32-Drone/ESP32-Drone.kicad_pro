@@ -411,6 +411,18 @@
     [
       "2164f6c4-476c-4035-8d45-cddfb758dbad",
       "Root"
+    ],
+    [
+      "8849d0b9-f1cc-4b92-9937-302e148a0b3b",
+      "Power Management"
+    ],
+    [
+      "aee334b9-136e-48d1-a54d-73461d140c94",
+      "ESP32"
+    ],
+    [
+      "27cb7113-7d51-4441-a1d3-c5b413df723b",
+      "Peripherals"
     ]
   ],
   "text_variables": {}

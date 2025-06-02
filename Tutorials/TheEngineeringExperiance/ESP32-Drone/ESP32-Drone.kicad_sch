@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(rectangle
 		(start 152.4 22.86)
-		(end 400.05 234.95)
+		(end 400.05 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -39,7 +39,7 @@
 		(size 31.75 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -61,7 +61,7 @@
 		(size 31.75 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type solid)
 		)
 		(fill
@@ -182,20 +182,10 @@
 			(xy 203.2 50.8) (xy 222.25 50.8)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.5)
+			(type solid)
 		)
 		(uuid "08bc5b21-e6da-4d2d-acb5-0ae03d93f70b")
-	)
-	(polyline
-		(pts
-			(xy 220.98 52.07) (xy 222.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a247f569-72ef-4a9b-adcb-e725070bb0f1")
 	)
 	(polyline
 		(pts
@@ -205,7 +195,163 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "48f0ae3b-6d1a-4762-b966-872399ab7f2d")
+	)
+	(polyline
+		(pts
+			(xy 220.98 52.07) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "a247f569-72ef-4a9b-adcb-e725070bb0f1")
+	)
+	(polyline
+		(pts
+			(xy 220.98 49.53) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
 		(uuid "ad69e7d8-3e3e-4f78-8483-663d9423fa8a")
+	)
+	(polyline
+		(pts
+			(xy 220.98 49.53) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d493c1-ca74-4f9f-a015-3ad3194c4475")
+	)
+	(sheet
+		(at 247.65 199.39)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27cb7113-7d51-4441-a1d3-c5b413df723b")
+		(property "Sheetname" "Peripherals"
+			(at 247.65 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 247.65 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2164f6c4-476c-4035-8d45-cddfb758dbad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 199.39)
+		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8849d0b9-f1cc-4b92-9937-302e148a0b3b")
+		(property "Sheetname" "Power Management"
+			(at 153.67 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power-Management.kicad_sch"
+			(at 153.67 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2164f6c4-476c-4035-8d45-cddfb758dbad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 199.39)
+		(size 31.75 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aee334b9-136e-48d1-a54d-73461d140c94")
+		(property "Sheetname" "ESP32"
+			(at 205.74 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 205.74 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-Drone"
+				(path "/2164f6c4-476c-4035-8d45-cddfb758dbad"
+					(page "3")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
